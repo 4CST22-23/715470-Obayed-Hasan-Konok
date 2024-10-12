@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../MEDIA/Home-Page-Background-Pattern.png);
+    background-image: url(./MEDIA/Home-Page-Background-Pattern.png);
     background-size: 500px 600px;
     background-repeat: repeat;
     width: 100%;
@@ -218,7 +218,7 @@ Latest update section start */
 #latest-update-section{
     width: 100%;
     height: 838px;
-    background-image:url(../MEDIA/Latest-Update-Section/Latest\ Update\ sections.png);
+    background-image:url(./MEDIA/Latest-Update-Section/Latest\ Update\ sections.png);
     background-color: #36454f; 
     padding: 32px 64px;
     margin: 96px 0px;
@@ -390,7 +390,7 @@ footer{
     width: 100%;
     gap: 32px;
     padding: 32px;
-    background-image: url(../MEDIA/Footer-Section/footer\ image.png);
+    background-image: url(./MEDIA/Footer-Section/footer\ image.png);
     background-color: #fbbf50;
     border-top: 3px solid black;
 }
