@@ -156,7 +156,7 @@ div ul{
 }
 
 #home-hero-text p{
-    width: 980px;
+    max-width: 980px;
 }
 
 /* More link section */
@@ -166,6 +166,7 @@ div ul{
     grid-template-columns: repeat(3, 1fr);
     gap: 64px;
     justify-items: center;
+    align-items: center;
     margin: 32px 256px;
 }
 
