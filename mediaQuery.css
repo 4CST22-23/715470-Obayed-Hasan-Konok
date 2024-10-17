@@ -142,6 +142,13 @@
 
     #logo{
         font-size: 32px;
+        text-align: start;
+        width: max-content;
+    }
+
+    div ul{
+        gap:8px;
+        font-size: 14px;
     }
     
     #home-hero-text{
