@@ -81,6 +81,10 @@
         width: 120%;
         margin-left: -100px;
     }
+
+    #home-hero-text-myc{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -165,13 +169,13 @@
 
     #more-link-section{
         gap: 16px;
-        margin: 16px 24px;
+        margin: 16px 64px;
     }
 
 
 
     .link-card .link-card-color-black{
-        width: 332px;
+        width: 100%;
         height:192px;
     }
 
@@ -179,7 +183,7 @@
     .link-card-img{
         width: 156px;
         height: 156px;
-        margin-top: -180px;
+        margin-top: -140px;
 
     }
 
@@ -202,10 +206,22 @@
     }
 
 
+    #myc-profile-section{
+        margin: 32px 64px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
-
-
+    .myc-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        height: 500px;
+        background-color: #FFE6C0;
+        border-radius: 25px;
+    }
+    
 
 
 

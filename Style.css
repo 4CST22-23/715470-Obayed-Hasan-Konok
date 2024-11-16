@@ -164,10 +164,10 @@ div ul{
 #more-link-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 64px;
-    justify-items: center;
+    gap: 32px;
+    justify-items: stretch;
     align-items: center;
-    margin: 32px 256px;
+    margin: 32px 64px;
 }
 
 .link-card{
@@ -183,8 +183,8 @@ div ul{
 
 
 .link-card .link-card-color-black{
-    width: 400px;
-    height:256px;
+    width: 100%;
+    height: 256px;
     border-top-left-radius:16px;
     border-top-right-radius:16px;
     background-color: #36454F;
@@ -649,14 +649,19 @@ meet your council section start
 meet your council section start */
 
 
-#home-hero-text #myc-hero-p{
+#home-hero-text-myc{
     text-align: center;
-    width: 656px;
+    width: max-content;
 }
 
 #myc-hero-h1{
     text-align: center;
-    margin-right: 64px;
+    margin: 0px 64px;
+}
+
+#myc-hero-p{
+    text-align: center;
+    margin: 0px 64px;
 }
 
 
@@ -676,10 +681,11 @@ meet your council section start */
 #myc-profile-section{
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     justify-items: center;
-    margin: 0px 64px;
+    margin: 32px 64px;
+    text-wrap: pretty;
     
 }
 
@@ -691,9 +697,8 @@ meet your council section start */
     justify-content: center;
     align-items: center;
     gap: 32px;
-    margin: 32px 0px;
-    width: 540px;
-    height: 540px;
+    width: 100%;
+    height: 600px;
     background-color: #FFE6C0;
     border-radius: 25px;
 }
@@ -705,6 +710,10 @@ meet your council section start */
     align-items: center;
     gap: 8px;
     text-align: center;
+}
+
+.myc-proile-title{
+    font-size: 32px;
 }
 
 .myc-profile div p{
