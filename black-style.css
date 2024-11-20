@@ -86,7 +86,7 @@ nav{
     font-family: 'Alegreya';
     font-style: normal;
     font-weight: 800;
-    font-size: 23px;
+    font-size: 21px;
     border-bottom: 3px solid black;
     background-color:black;
     height: 127px;
@@ -390,7 +390,7 @@ latest blog section start */
 
 #latest-blog-div{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     row-gap: 32px;
     column-gap: 64px;
@@ -400,6 +400,7 @@ latest blog section start */
 #latest-blog-div .latest-blog-div-child{
     display: flex;
     flex-direction: column;
+    width: 500px;
    
 }
 
@@ -532,7 +533,34 @@ input[type="submit"]{
 
 
 @media screen and (max-width: 1600px) {
-    
+
+    h1{
+        font-size:83px;
+        line-height: 92px;
+    }
+
+    #latest-blog-div{
+
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 32px;
+
+    }
+
+    #latest-blog-div .latest-blog-div-child{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+       
+    }
+
+    #latest-blog-div div p,h5{
+        width: 400px;
+     }
+
+
+     .blog-post-feature-black img{
+        width: 47%;
+     }
 }
 
 @media screen and (max-width: 1280px) {
